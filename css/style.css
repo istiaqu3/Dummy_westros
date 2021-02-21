@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+            /* -----------Navbar-----------  */
+#navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: sticky;
+    top: 0px;
+    /* left: 0px; */
+}
+#navbar::before{
+    content: '';
+    background-color:rgb(51, 42, 42);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .3 ;
+}
+
+             /* ---------------Logo and Image--------------  */
+#logo{
+    margin: 10px 10px;
+}
+
+#logo img{
+    margin: 3px 17px;
+    height: 56px;
+    width: 85px;
+}
+
+            /*------------------ navbar style----------------  */
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
+
+
+            /* --------------------Home/Section----------------  */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 350px;
+    /* position: relative; */
+}    
+
+#home::before{
+    content: '';
+    background: url(../img/bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 420px;
+    width: 100%;
+    z-index: -1;
+    opacity: .9 ;
+    top: 0px;
+    left: 0px;
+    
+
+}               
+
+
+            /* -----------Services section---------  */       
+
+#services{
+    margin: 30px;
+    display: flex;
+}
+
+#services .box{
+    border: 2px solid red;
+    padding: 34px;
+    margin: 3px 7px;
+    background-color: rgb(248, 245, 245);
+    border-radius: 20px;
+}
+
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: 10px auto;
+
+}
+
+
+            /* ---------------Contact---------------- */
+
+
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: '';
+    background: url(../img/contact.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4 ;
+    top: 0px;
+    left: 0px;
+    
+
+} 
+
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#contact-box input{
+    width: 100%;
+    padding: 2.5 rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px 25px;
+}
+            /* -----------Utilities classes---------  */
+
+.h-primary{
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.h-secondary{
+    font-size: 1.9rem;
+    padding: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.btn{
+    padding: 4px 15px;
+    border: 2px solid white ;
+    border-radius: 15px;
+    margin: 17px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
