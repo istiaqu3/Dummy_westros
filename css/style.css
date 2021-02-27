@@ -3,6 +3,9 @@
     padding: 0px;
 }
 
+body{
+    font-family: 'Akaya Telivigala', cursive;
+}
             /* -----------Navbar-----------  */
 #navbar{
     display: flex;

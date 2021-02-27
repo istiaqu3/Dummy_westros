@@ -1,0 +1,23 @@
+/* -----------navbar----------- */
+
+#navbar{
+    flex-direction: column;
+}
+/* -------Service--------------*/
+
+#services{
+    flex-direction: column;
+}
+
+
+/* -----------utilities---------- */
+
+.h-primary{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.h-secondary{
+    font-size: 1rem;
+    padding: 10px;
+}
